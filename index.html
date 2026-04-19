@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Le mans-Hypercars</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
+  <header class="cabecalho py-3">
+  <div class="container">
+    <h1 class="text-center">Le Mans Cars</h1>
+     <nav class="navbar" style="background-color: #000;"></nav>
+  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">História</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+    </ul>
+
+    <div class="row justify-content-center g-2 mt-2">
+      <div class="col-12 col-md-4">
+        <input type="text" class="form-control" placeholder="Seu nome">
+      </div>
+      <div class="col-12 col-md-4">
+        <input type="email" class="form-control" placeholder="Seu email">
+      </div>
+      <div class="col-12 col-md-auto">
+        <button class="btn btn-warning w-100">Buscar</button>
+      </div>
+    </div>
+  </div>
+</header>
+   <main class="container-fluid py-3">
+  <div class="row">
+    <aside class="col-12 col-md-3 col-lg-2 sidebar">
+  <img src="https://picsum.photos/800/300" alt="Banner" class="img-fluid rounded mb-3">
+
+  <h5 class="text-center">Sobre o site:</h5>
+  <p class="small text-center">
+    Este site apresenta alguns dos principais hypercars que competiram em Le Mans,
+    mostrando suas características e desempenho que os tornaram lendários nas pistas.
+  </p>
+
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action marca">Porsche</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Mazda</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Toyota</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Audi</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Jaguar</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Nissan</button>
+    <button type="button" class="list-group-item list-group-item-action marca">Sauber</button>
+  </div>
+</aside>
+    <section class="col-12 col-md-9 col-lg-10">
+        <h2>Modelos:</h2>
+        <div class="row g-4 mt-1">
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <img src="935.png" class="card-img-top" alt="Porsche 935">
+              <div class="card-body">
+                <h5 class="card-title">Porsche 935</h5>
+                <p class="card-text">Um dos carros mais icônicos da história de Le Mans, responsável pela primeira vitória da Porsche em 1970.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <img src="911 gt1.png" class="card-img-top" alt="Porsche 911 GT1">
+              <div class="card-body">
+                <h5 class="card-title">Porsche 911 GT1</h5>
+                <p class="card-text">Supercarro criado para homologação, venceu as 24 Horas de Le Mans em 1998.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <img src="917.png" class="card-img-top" alt="Porsche 917">
+              <div class="card-body">
+                <h5 class="card-title">Porsche 917</h5>
+                <p class="card-text">Monstro das pistas com motor extremamente potente, foi banida de Le Mans após mudanças no regulamento.</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+  </div>
+</main>
+    </main>
+
+<footer class="rodape">
+    <p>HYPERCAR-Le Mans</p>
+<p>
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Facebook</a>
+    </p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -10,18 +10,19 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Marcelo Henrique Soares Silva
+- Matricula:918309
+- Proposta de projeto escolhida: Carros banidos de corrida de Le Mans.
+- Breve descrição sobre seu projeto:Ao longo da história varios carros de Le Mans foram tão avançados que acabaram levando a mudanças nas regras. Em vez de banir diretamente, a organização altera regulamentos para limitar desempenho, aumentar a segurança e manter a competição justa.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](desktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
 <<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](mobile.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: #222;
+  color: white;
+}
+
+.cabecalho a {
+  color: #ccc;
+}
+.sidebar {
+  background-color: #eee;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.marca {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.marca:hover {
+  background-color: #f0c040;
+  cursor: pointer;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.rodape {
+  background-color: #ddd;
+  text-align: center;
+  padding: 25px;
+}
+
+.rodape a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
